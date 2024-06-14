@@ -49,6 +49,6 @@ def index():
     """
     return HTMLResponse(content=html_content, status_code=200)
 
-@app.post("/departure")
+@app.post("/present")
 async def new_naming(name):
     return {"{name}、ガンダム、行きます!!!"}
