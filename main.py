@@ -42,6 +42,8 @@ def index():
         </head>
         <body>
             <h1>Look ma! HTML!</h1>
+            <h2>課題9-Aだよ!!!</h2>
+            <p>hogehoge</p>
         </body>
     </html>
     """
