@@ -29,4 +29,4 @@ def omikuji():
         "小凶",
         "大凶"
     ]
-    return omikuji_list[random.randrange(10)]
+    return {"result" : omikuji_list[random.randrange(10)]}
