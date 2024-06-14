@@ -51,4 +51,4 @@ def index():
 
 @app.post("/present")
 async def new_naming(name):
-    return {"{name}、ガンダム、行きます!!!"}
+    return {f"{name}、ガンダム、行きます!!!"}
